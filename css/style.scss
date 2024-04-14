@@ -87,11 +87,11 @@
             padding: 10px;
             text-decoration: none;
             color: black;
-            background-color: rgba(245, 245, 245, 0.5);
+            background-color: rgba(245, 245, 245, 0.8);
 
             &:hover {
                 color: black;
-                background-color: rgba(245, 245, 245, 0.8);
+                background-color: whitesmoke;
             }
         }
 
@@ -103,7 +103,7 @@
 }
 
 main {
-    padding: 70px;
+    padding: 70px 70px 50px;
 
     .article {
         &__headline {
@@ -122,6 +122,24 @@ main {
         &__paragraph {
             margin: 15px;
         }
+
+        &__paragraph--attention {
+            font-weight: bold;
+        }
+
+        &__order {
+            display: block;
+            cursor: pointer;
+            margin: 50px auto 0;
+            padding: 15px 70px;
+            color: black;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+
+            &:hover {
+
+            }
+        }
     }
 }
 
@@ -132,5 +150,15 @@ main {
 
     &__text {
         color: lightgray;
+    }
+
+    &__feedback {
+        cursor: pointer;
+        color: white;
+        text-decoration: underline;
+
+        &:hover {
+            color: revert;
+        }
     }
 }
