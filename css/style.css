@@ -24,10 +24,11 @@
 .wrapper {
   max-width: 1000px;
   margin: 300px auto;
-  height: 2000px;
-  background-color: rgba(245, 245, 245, 0.4);
+  border-radius: 5px;
+  background-color: rgba(100, 100, 100, 0.85);
   backdrop-filter: blur(10px);
   font-family: "Roboto", sans-serif;
+  color: whitesmoke;
 }
 
 .header {
@@ -35,7 +36,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
 }
 .header__logo {
   font-family: "ProtestRiot", sans-serif;
@@ -64,9 +64,11 @@
   transition: all 0.5s;
   list-style-type: none;
   position: absolute;
+  overflow: hidden;
   top: 100%;
   right: 0;
   border: 1px solid rgba(245, 245, 245, 0.4);
+  border-radius: 5px;
 }
 .header .menu__item:not(:last-child) {
   border-bottom: 1px solid rgba(245, 245, 245, 0.4);
@@ -85,6 +87,24 @@
 .header .menu:hover > .menu__list {
   opacity: 1;
   visibility: visible;
+}
+
+main {
+  padding: 70px;
+}
+main .article__headline {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+main .article__image {
+  display: block;
+  width: 80%;
+  margin-inline: auto;
+  padding: 30px;
+}
+main .article__paragraph {
+  margin: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
