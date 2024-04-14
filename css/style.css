@@ -108,6 +108,10 @@ main .article__paragraph {
 main .article__paragraph--attention {
   font-weight: bold;
 }
+main .article__gallery-link {
+  cursor: pointer;
+  text-decoration: underline;
+}
 main .article__order {
   display: block;
   cursor: pointer;
@@ -125,7 +129,7 @@ main .article__return {
   color: white;
 }
 main .article__return-link {
-  padding: 5px;
+  padding: 2px 5px 0;
   text-decoration: none;
   color: white;
 }
@@ -152,6 +156,22 @@ main .article__return-link:hover {
 }
 .footer__feedback:hover {
   color: revert;
+}
+
+.gallery__back {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  padding: 2px 5px 0;
+  text-decoration: none;
+}
+.gallery__back:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.gallery__image {
+  width: 100%;
+}
+.gallery__image:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 720px) {
