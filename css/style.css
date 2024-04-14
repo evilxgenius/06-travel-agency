@@ -111,11 +111,30 @@ main .article__paragraph--attention {
 main .article__order {
   display: block;
   cursor: pointer;
-  margin: 50px auto 0;
+  margin: 50px auto 15px;
   padding: 15px 70px;
   color: black;
   font-size: 1.2rem;
   text-transform: uppercase;
+}
+main .article__return {
+  display: flex;
+  justify-content: center;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: white;
+}
+main .article__return-link {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+}
+main .article__return-link-image {
+  vertical-align: middle;
+}
+main .article__return-link:hover {
+  border-radius: 5px;
+  background-color: rgba(245, 245, 245, 0.3);
 }
 
 .footer {
