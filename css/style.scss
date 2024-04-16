@@ -27,7 +27,7 @@
 
 .wrapper {
     max-width: 1000px;
-    margin: 300px auto;
+    margin: 150px auto;
     border-radius: 5px;
     background-color: rgba(100, 100, 100, 0.85);
     backdrop-filter: blur(10px);
@@ -35,7 +35,7 @@
 }
 
 .header {
-    padding: 15px 20px 15px 25px;
+    padding: 1% 20px 1% 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,7 +120,7 @@ main {
         }
 
         &__paragraph {
-            margin: 15px;
+            margin: 15px 5%;
         }
 
         &__paragraph--attention {
@@ -148,24 +148,27 @@ main {
             font-size: 0.8rem;
             text-decoration: none;
             color: white;
+
             &-link {
                 padding: 2px 5px 0;
                 text-decoration: none;
                 color: white;
-                &-image {
-                    vertical-align: middle;
-                }
+
                 &:hover {
                     border-radius: 5px;
                     background-color: rgb(245, 245, 245, 0.3);
                 }
+            }
+
+            &-image {
+                vertical-align: middle;
             }
         }
     }
 }
 
 .footer {
-    padding: 15px;
+    padding: 15px 1%;
     display: flex;
     justify-content: center;
 
@@ -187,8 +190,8 @@ main {
 .gallery {
     &__back {
         display: inline-block;
-        margin: 10px 10px 10px 0;
-        padding: 2px 5px 0;
+        margin: 10px 10% 10px 0;
+        padding: 2px 1% 0;
         text-decoration: none;
 
         &:hover {
@@ -211,11 +214,11 @@ main {
     }
 
     .main {
-        padding: 15px;
+        padding: 15px 5%;
 
         .article__image {
             width: 100%;
-            padding: 15px;
+            padding: 15px 5%;
         }
 
         .article__order {

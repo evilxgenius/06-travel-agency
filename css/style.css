@@ -23,7 +23,7 @@
 
 .wrapper {
   max-width: 1000px;
-  margin: 300px auto;
+  margin: 150px auto;
   border-radius: 5px;
   background-color: rgba(100, 100, 100, 0.85);
   backdrop-filter: blur(10px);
@@ -31,7 +31,7 @@
 }
 
 .header {
-  padding: 15px 20px 15px 25px;
+  padding: 1% 20px 1% 25px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,7 +103,7 @@ main .article__image {
   padding: 30px;
 }
 main .article__paragraph {
-  margin: 15px;
+  margin: 15px 5%;
 }
 main .article__paragraph--attention {
   font-weight: bold;
@@ -133,16 +133,16 @@ main .article__return-link {
   text-decoration: none;
   color: white;
 }
-main .article__return-link-image {
-  vertical-align: middle;
-}
 main .article__return-link:hover {
   border-radius: 5px;
   background-color: rgba(245, 245, 245, 0.3);
 }
+main .article__return-image {
+  vertical-align: middle;
+}
 
 .footer {
-  padding: 15px;
+  padding: 15px 1%;
   display: flex;
   justify-content: center;
 }
@@ -160,8 +160,8 @@ main .article__return-link:hover {
 
 .gallery__back {
   display: inline-block;
-  margin: 10px 10px 10px 0;
-  padding: 2px 5px 0;
+  margin: 10px 10% 10px 0;
+  padding: 2px 1% 0;
   text-decoration: none;
 }
 .gallery__back:hover {
@@ -179,11 +179,11 @@ main .article__return-link:hover {
     margin: 0;
   }
   .main {
-    padding: 15px;
+    padding: 15px 5%;
   }
   .main .article__image {
     width: 100%;
-    padding: 15px;
+    padding: 15px 5%;
   }
   .main .article__order {
     margin-top: 30px;
